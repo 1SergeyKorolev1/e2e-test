@@ -9,7 +9,6 @@ def app():
     src.finish_and_back_to(driver, By)
     driver.close()
     driver.quit()
-    print("\nПроизведен выход с платформы...")
     print("\nСценарий тестирования завершен!")
 
 if __name__ == "__main__":
