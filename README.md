@@ -1,8 +1,8 @@
 # e2e-test
 Автоматический e2e тест для проверки сценария покупки товара на сайте saucedemo.com 
-![scrin](https://sun9-51.userapi.com/impg/aY-WL-u--Db--PBkki3n3z1b0UK2JopLigTO4A/uqATEzfXRTg.jpg?size=1193x842&quality=96&sign=91a0e20d42a231a7a20fff3acd4c9243&type=album)  
-с использованием Python + Selenium.  
- ![scrin](https://selenium-python.com/wp-content/uploads/2017/11/cropped-logo-mini.png)  
+<img src="https://sun9-51.userapi.com/impg/aY-WL-u--Db--PBkki3n3z1b0UK2JopLigTO4A/uqATEzfXRTg.jpg?size=1193x842&quality=96&sign=91a0e20d42a231a7a20fff3acd4c9243&type=album" width="600" height="500">  
+с использованием Python + Selenium + PyTest.  
+<img src="https://media.licdn.com/dms/image/D5612AQFkXUMj02PrwA/article-cover_image-shrink_600_2000/0/1701347403893?e=2147483647&v=beta&t=5QOBWBzbMxY9BEt6DtHJHspO_4BaLXXknWgPqMPGwV4" width="400" height="200">  
 Тест проверяет процесс от авторизации до завершения покупки, с возможностью легко воспроизвести его на любом компьютере.
 ___
 ⚙️ Рекомендации по запуску:
