@@ -1,12 +1,14 @@
-from selenium.webdriver.common.by import By
 import src
 
 def app():
     driver = src.driver
-    src.give_authorization(driver, By, src)
-    src.added_to_cart(driver, By)
-    src.giv_submission_form(driver, By)
-    src.finish_and_back_to(driver, By)
+    by = src.by
+    src.give_authorization(driver, by, src)
+    src.added_to_cart(driver, by)
+    src.go_to_cart(driver, by)
+    src.check_product_in_cart(driver, by)
+    src.giv_submission_form(driver, by)
+    src.finish_and_back_to(driver, by)
     driver.close()
     driver.quit()
     print("\nСценарий тестирования завершен!")
